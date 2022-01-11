@@ -14,6 +14,11 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: 3px dashed #000;
+  outline-offset: 3px;
+}
+
 body {
   display: flex;
   flex-direction: column;
